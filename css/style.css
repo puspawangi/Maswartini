@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/*Global*/
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  background-color:#d6cbd3;
+  margin: 0;
+}
+
+h1 {
+  color:white;
+  font-size: 4em;
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 1.1;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  color:white;
+  font-size:2em;
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 1.1;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  color:white;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+}
+
+small{
+  color:white;
+}
+
+.divsmall{
+  position: center;
+  text-align: center;
+}
+
+/*About Me*/
+
+#aboutme{
+  padding:50vh;
+}
+
+/* My Family*/
+
+#myfamily{
+  background-color: #3b3a30;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+#imgfam {
+  max-width: 100%;
+  position: center;
+  text-align: center;
+}
+
+/*My Hobby*/
+
+#myhobby{
+padding-top: 50px;
+padding-bottom:50px;
+}
+
+button{
+  padding:10px;
+}
+
+.BandV{
+  position:center;
+  text-align: center;
+}
+
+/*Contact Me*/
+
+#ctc{
+  background-color:#3b3a30;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+#divform{
+  position: center;
+  text-align: center;
+}
+
+label{
+  color:white;
+}
+
+/*Footer*/
+
+footer{
+  margin:0;
+  padding:0;
+}
+
+
+/*Navigation*/
+
+
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: #333;
+  color: #eee;
+  position:fixed;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  float: left;
+}
+nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  color: #eee;
+  text-decoration: none;
+}
+nav li:hover {
+  background-color: white;
+}
+nav a#openup {
+  display: none;
+}
+
+/*Media*/
+
+@media screen and (max-width: 1024px) {
+  iframe{
+    height: 250px;
+    width: 300px;
+
+  }
+
+  body > h1{
+    font-size: 1.5em;
+  }
+
+  #contactme h3{
+    font-size: 1.5em;
+
+  }
+  label{
+    font-size: 0.8em;
+  }
+  p{
+    font-size: 0.8em;
+  }
+
+  small {
+    font-size: 0.5em;
+  }
+
+  #aboutme{
+    padding:100px 0px 250px 0px;
+  }
+
+  #aboutme{
+    height:50vh;
+  }
+
+  #aboutme h1 {
+    font-size: 1.5em;
+  }
+
+  #aboutme p{
+    font-size:0.8em;
+  }
+
+  nav {
+    height: auto;
+    border-bottom: 0;
+  }
+  nav ul {
+    display: none;
+    height: auto;
+  }
+  nav li {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  nav a {
+    text-align: left;
+    width: 100%;
+    text-indent: 25px;
+    background: #333;
+    border-bottom: 1px solid #555;
+  }
+  nav a:hover {
+    background: #444;
+  }
+  nav a#openup:after {
+    content: "|||";
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-90deg);
+    /* Safari and Chrome */
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+  }
+  nav a#openup {
+    display: block;
+    background-color: #333;
+    width: 100%;
+    position: relative;
+  }
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+

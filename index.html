@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+	<title>My Page | Maswartini</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<!-- Nav Bar & About Me -->
+
+<div>
+	<header>
+		<nav class='cf'>
+  <ul class='cf'>
+    <li class="hide-on-small">
+      <a href='#aboutme'>About Me</a>
+    </li>
+    <li>
+      <a href='#myfamily'>My Family</a>
+    </li>
+    <li>
+      <a href='#myhobby'>My Hobby</a>
+    </li>
+    <li>
+      <a href='#contactme'>Contact Me</a>
+    </li>
+  </ul>
+  <a href='#' id='openup'>About Me</a>
+</nav>
+	</header>
+
+	<div id="aboutme">
+		<h1>Welcome to my page!</h1>
+		<p class="lead">Hi There! I am Siti Maswartini binti Haji Mohd Aminuddin, 28 years old. I am married with one child. My highest qualification is HND in Computing (Application development).</p>
+	</div>
+</div>
+
+<!-- My Family -->
+
+    <div id="myfamily">
+      <h3>My Family</h3>    
+      <p>This is my family portrait with my husband, Pg Kamarul 34 years old and my one year old son, Ak Fatih. </p>
+      <img id="imgfam" src="img/myfamily.jpg" alt="My Family Portrait"> 
+      <br>
+      <div class="divsmall">
+      <small>Picture taken on January 2021</small></div>
+    </div>
+
+<!-- My Hobby -->
+
+<article>
+    <div id="myhobby">
+      <h3>My Hobby</h3>
+        <p>Baking is my passion. I also like to join baking classes which leads me to run a small business from home selling cookies, cakes and other sweet treats named "Lazybear.bn".</p>
+
+
+<!-- Carousel starts here! -->
+<div class="carousel">
+
+<div id="carouselExampleCaptions" class="carousel-slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+ <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/brownies.jpg" class="d-block w-100" alt="Brownies">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Brownies</h5>
+        <p>Butterscrotch & Nutella Brownies</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img src="img/pavlova.jpg" class="d-block w-100" alt="Pavlova">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pavlova</h5>
+        <p>Nutella, Caramel and Bear-ries Pavlova</p>
+      </div>
+    </div>
+</div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
+
+
+      <p>These are my bakes. You can check out my Instagram profile for further information.</p>  
+
+</div>
+      <div class="BandV">
+      <button class="btn-mh" href = "https://www.instagram.com/lazybear.bn/"; target = "_blank">Check It Out!</button>
+      </div>
+      <div>
+        <p>In this section, I will share one of my recipe. This is a Fudgy Brownie recipe that I have uploaded on my Youtube channel.</p>
+        <div class="BandV">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/D1vLb4L0p0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      </div>  
+    </div>
+  </div>
+  </article>
+
+<!-- Contact Me -->
+  <article id = "ctc">
+    <div id="contactme">
+      <h3>Contact Me</h3>
+      <p>Kg Tanah Jambu, Negara Brunei Darussalam. </p>
+      <div class="divsmall"><small>
+        Any enquiries, please do not hesitate to contact me!</div>
+      </small>
+    <br>
+    <br>
+
+      <!-- Form Starts here -->
+        <div id="divform">
+        <form>
+          <div>
+            <label>First Name:</label>
+            <input type="text" name="firstName" placeholder="Enter First Name">
+          </div>
+        <br>
+          <div>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter Your Email">
+          </div>
+        <br>
+          <div>
+            <label>Message:</label>
+            <textarea name="message" placeholder="Your Message..."></textarea>
+          </div>
+        </form>
+      </div>
+    </div>
+  </article>
+
+<!-- Footer -->
+  <footer>
+    <div class="divsmall">
+    <small>Copyright &copy; 2021 |  Maswartini</p>
+  </small> </div>
+</footer>
+
+
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+
+</body>
+</html>
